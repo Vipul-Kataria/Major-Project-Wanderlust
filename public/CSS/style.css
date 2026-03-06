@@ -135,7 +135,26 @@ body{
     opacity: 1;
 }
 
-.globe{
-    height: 10rem;
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
 
+.brand-icon{
+    font-size: 1.4rem;
+    color: #ff385c;
+    transition: transform 0.3s ease;
+}
+
+.brand-name{
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ff385c;
+}
+
+.brand:hover .brand-icon{
+    transform: rotate(15deg) scale(1.1);
 }
